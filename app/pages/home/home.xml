@@ -6,6 +6,7 @@
             <Button text="Contact Us" tap="onContact" />
             <Button text="My Repos" tap="onRepos" />
             <Button text="Profile" tap="onProfile" />
+            <Button text="Images" tap="onImages" />
         </StackLayout>
         
     </StackLayout>

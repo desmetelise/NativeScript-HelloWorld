@@ -9,3 +9,4 @@ exports.onAboutTap = () => navigate('about');
 exports.onContact = () => navigate('contact-us');
 exports.onRepos = () => navigate('repos');
 exports.onProfile = () => navigate('profile');
+exports.onImages = () => navigate('images');

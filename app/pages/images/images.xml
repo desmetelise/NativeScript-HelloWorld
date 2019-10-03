@@ -1,0 +1,29 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo">
+    <ScrollView>
+        <StackLayout>
+            <Image src="res://meme" stretch="none" />
+            
+
+            <Label text="108 versus 108px" textWrap="true" />
+            <Image src="https://via.placeholder.com/150" width="108"/>
+            <StackLayout orientation="horizontal">
+                <Image src="https://via.placeholder.com/150" width="108px"/>
+                <Image src="https://via.placeholder.com/150" width="108px"/>
+                <Image src="https://via.placeholder.com/150" width="108px"/>
+                <Image src="https://via.placeholder.com/150" width="108px"/>
+            </StackLayout>
+            <Label text="Full screen (554 dip) versus 554px" textWrap="true" />
+            <Image src="https://via.placeholder.com/150" width="410"/>
+            <Image src="https://via.placeholder.com/150" width="410px"/>
+
+            <Label text="108 divided by 4" textWrap="true" />
+            <Image src="https://via.placeholder.com/150" width="108"/>
+            <StackLayout orientation="horizontal">
+                <Image src="https://via.placeholder.com/150" width="71px"/>
+                <Image src="https://via.placeholder.com/150" width="71px"/>
+                <Image src="https://via.placeholder.com/150" width="71px"/>
+                <Image src="https://via.placeholder.com/150" width="71px"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</Page>
