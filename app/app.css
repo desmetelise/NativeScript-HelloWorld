@@ -17,5 +17,71 @@ The following CSS rule changes the font size of all UI
 components that have the btn class name.
 */
 .btn {
-    font-size: 18;
+	font-size: 18;
 }
+
+Page {
+	background-color: #ffffff;
+}
+
+.content {
+	padding: 12;
+}
+
+Button {
+	/* Style selector */
+	background-color: #d4dccd;
+	color: #6b717e;
+	border-radius: 15;
+	margin: 10;
+}
+
+.title {
+	/* Class selector */
+	background-color: #d4dccd;
+	color: #6b717e;
+	font-size: 24;
+	font-weight: bold;
+	padding: 15;
+	text-align: center;
+	margin-bottom: 12;
+}
+
+.left-grid {
+	margin-right: 3px;
+}
+
+.right-grid {
+	margin-left: 3px;
+}
+
+#submit {
+	/* ID selector */
+}
+
+StackLayout Label {
+	/* Hierarchical selector */
+	/* Child */
+	/* Alle labels die zich in stacklayout bevinden */
+}
+
+StackLayout > Label {
+	/* Hierarchical selector */
+	/* Direct child */
+	/* Rechtstreeks onder stacklayout */
+	background-color: #d4dccd;
+	color: #6b717e;
+	text-align: center;
+}
+
+TextField[hint] {
+	/* Attribute selector */
+}
+
+/* * {
+	border-width: 4px;
+	border-color: red;
+	border-style: solid;
+	margin: 4px;
+	padding: 4px;
+} */

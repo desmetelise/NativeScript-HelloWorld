@@ -1,0 +1,63 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo" actionBarHidden="true">
+    <StackLayout>
+        <Label text="My Repos" class="title" textWrap="true" />
+        <GridLayout rows="*, *, *" columns="*, *" class="content">
+
+            <StackLayout row="0" col="0" class="left-grid">
+                <Label text="c# Programming Course" textWrap="true" />
+                <Image src="https://via.placeholder.com/150x75?text=Github_Repo" stretch="aspectFit" />
+                <StackLayout orientation="horizontal">
+                    <Label text="33 commits" textWrap="true" />
+                    <Label text="Last updated at 22/09/2019" textWrap="true" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout row="0" col="1" class="right-grid">
+                <Label text="RPi Home Automation" textWrap="true" />
+                <Image src="https://via.placeholder.com/150x75?text=Github_Repo" stretch="aspectFit" />
+                <StackLayout orientation="horizontal">
+                    <Label text="13 commits" textWrap="true" />
+                    <Label text="Last updated at 12/09/2019" textWrap="true" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout row="1" col="0" class="left-grid">
+                <Label text="NativeScript for Beginners" />
+                <Image src="https://via.placeholder.com/150x75?text=Github_Repo" stretch="aspectFit" />
+                <StackLayout orientation="horizontal">
+                    <Label text="123 commits" textWrap="true" />
+                    <Label text="Last updated at 18/09/2019" textWrap="true" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout row="1" col="1" class="right-grid">
+                <Label text="Phaser 3 Breakout" textWrap="true" />
+                <Image src="https://via.placeholder.com/150x75?text=Github_Repo" stretch="aspectFit" />
+                <StackLayout orientation="horizontal">
+                    <Label text="45 commits" textWrap="true" />
+                    <Label text="Last updated at 11/09/2019" textWrap="true" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout row="2" col="0" class="left-grid">
+                <Label text="Phaser 3 Breakout" textWrap="true" />
+                <Image src="https://via.placeholder.com/150x75?text=Github_Repo" stretch="aspectFit" />
+                <StackLayout orientation="horizontal">
+                    <Label text="45 commits" textWrap="true" />
+                    <Label text="Last updated at 11/09/2019" textWrap="true" />
+                </StackLayout>
+            </StackLayout>
+            
+            <StackLayout row="2" col="1" class="right-grid">
+                <Label text="Phaser 3 Breakout" textWrap="true" />
+                <Image src="https://via.placeholder.com/150x75?text=Github_Repo" stretch="aspectFit" />
+                <StackLayout orientation="horizontal">
+                    <Label text="45 commits" textWrap="true" />
+                    <Label text="Last updated at 11/09/2019" textWrap="true" />
+                </StackLayout>
+            </StackLayout>
+            
+        </GridLayout>
+        
+    </StackLayout>
+</Page>

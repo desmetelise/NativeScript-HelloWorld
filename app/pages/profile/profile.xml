@@ -1,0 +1,48 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" navigatedTo="onNavigatedTo" actionBarHidden="true">
+	<StackLayout>
+		<Label text="Profile" textWrap="true" class="title" />
+
+        <GridLayout rows="*, *, *, *, *" columns="*, *" class="content">
+
+            <StackLayout row="0" col="0" >
+                <Label text="Name: " textWrap="true" class="left-grid"/>
+            </StackLayout>
+
+            <StackLayout row="0" col="1" >
+                <Label text="Elise De Smet" textWrap="true" class="right-grid"/>
+            </StackLayout>
+
+            <StackLayout row="1" col="0" >
+                <Label text="Nickname: " textWrap="true" class="left-grid"/>
+            </StackLayout>
+
+            <StackLayout row="1" col="1" >
+                <Label text="Liesje" textWrap="true" class="right-grid"/>
+            </StackLayout>
+
+            <StackLayout row="2" col="0">
+                <Label text="#Repos:" textWrap="true" class="left-grid"/>
+            </StackLayout>
+
+            <StackLayout row="2" col="1" >
+                <Label text="14" textWrap="true" class="right-grid"/>
+            </StackLayout>
+
+            <StackLayout row="3" col="0">
+                <Label text="#Followers: " textWrap="true" class="left-grid"/>
+            </StackLayout>
+
+            <StackLayout row="3" col="1" >
+                <Label text="4" textWrap="true" class="right-grid"/>
+            </StackLayout>
+
+            <StackLayout row="4" colSpan="2">
+                <Label text="Avatar" textWrap="true" />
+                <Image src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png" stretch="aspectFit" />
+                
+            </StackLayout>
+            
+        </GridLayout>
+
+	</StackLayout>
+</Page>;
